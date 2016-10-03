@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="img/android-chrome-192x192.png" sizes="192x192">
+
+    <!-- build:css -->
+				<link rel="stylesheet/less" type="text/css" href="less/style.less">
+        <script type="text/javascript" src="bower_modules/less/dist/less.js" async></script>
+    <!-- endbuild -->
+
+
+
+    <title>Dotační portál krajského úřadu Jihomoravského kraje</title>
+</head>
+<body>
+    <!-- build:js -->
+        <script src="bower_modules/jquery/dist/jquery.js"></script>
+        <script src="bower_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    <!-- endbuild -->
+
+
+        <header>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+
+                <div class="navbar-header">
+                    <button type="button"  class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <a class="navbar-brand" href="http://www.kr-jihomoravsky.cz"></a>
+                    <p class="navbar-text">Dotační portál <span class="hidden-sm hidden-xs">krajského úřadu Jihomoravského kraje</span></p>
+
+                </div>
+
+                <div class="collapse navbar-collapse menu"  id="menu">
+										<div  class="navbar-right">
+											<ul class="nav navbar-nav">
+													<li><a href="">AKTUALITY</a></li>
+													<li><a href="">DOKUMENTY</a></li>
+											</ul>
+										</div>
+                </div>
+
+
+						</div>
+
+
+          </div>
+        </nav>
+
+
+
+    </header>
