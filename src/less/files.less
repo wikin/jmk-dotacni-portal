@@ -1,0 +1,47 @@
+.files{
+	&,ul{
+		margin:0;padding:0;list-style:none;
+
+		li {
+			margin:0;padding:0;
+			a{
+				display:block;
+				padding:7px 0 3px 0;
+				text-decoration:none;
+				.clearfix();
+				word-break: break-word;
+				padding-left:60px;
+				line-height:1.2;
+
+				.fa{
+					margin-top:-4px;
+					font-size:20px;
+					float:left;
+					width:48px;height:48px;
+					background:@gray;
+					text-align:center;
+					line-height:48px;
+					border-radius:2px;
+					color:white;
+					margin-left:-60px;
+
+					&.fa-file-pdf-o{background:#e21e00}
+					&.fa-file-word-o{background:#4269a5}
+					&.fa-file-excel-o{background:#39825a}
+				}
+
+				small{
+					margin-top:4px;
+					.text-muted();
+					display:block;
+					text-decoration:none;
+				}
+
+				&:hover{
+					background:@gray-lighter;
+				}
+			}
+		}
+	
+	}
+}

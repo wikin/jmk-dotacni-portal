@@ -11,9 +11,9 @@
       <h1>Dotační portál<small>krajského úřadu Jihomoravského kraje</small></h1>
     </div>
 
-    <ul class="list">
-      <li><span class="list-item"><a href="">Dotační oblasti</a></span></li>
-      <li><span class="list-item"><a href="">Dotační programy <small>dle právní formy žadatele</small></a></span></li>
+    <ul class="list list-warning list-lg">
+      <li><span class="list-item"><a href="oblasti.aspx">Dotační oblasti</a></span></li>
+      <li><span class="list-item"><a href="pravni-formy.aspx">Dotační programy <small>dle právní formy žadatele</small></a></span></li>
       <li><span class="list-item"><a href="">Stav Vaší žádosti</a></span></li>
     </ul>
 

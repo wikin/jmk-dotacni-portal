@@ -40,15 +40,15 @@
                     </button>
                     
                     <a class="navbar-brand" href="http://www.kr-jihomoravsky.cz"></a>
-                    <p class="navbar-text">Dotační portál <span class="hidden-sm hidden-xs">krajského úřadu Jihomoravského kraje</span></p>
+                    <a class="navbar-text" href="."><span class="nav-linkin">Dotační portál <span class="hidden-sm hidden-xs">krajského úřadu Jihomoravského kraje</span></span></a>
 
                 </div>
 
                 <div class="collapse navbar-collapse menu"  id="menu">
 										<div  class="navbar-right">
 											<ul class="nav navbar-nav">
-													<li><a href="">AKTUALITY</a></li>
-													<li><a href="">DOKUMENTY</a></li>
+													<li><a href=""><span class="nav-linkin">AKTUALITY</span></a></li>
+													<li><a href="dokumenty.aspx"><span class="nav-linkin">DOKUMENTY</span></a></li>
 											</ul>
 										</div>
                 </div>

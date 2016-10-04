@@ -1,5 +1,5 @@
 .list{
-	margin:0 -@grid-gutter-width/2 60px -@grid-gutter-width/2;
+	margin:0 -5px 60px -5px;
 	padding:0;
 	list-style:none;
 	.clearfix();
@@ -7,7 +7,7 @@
 	
 	li{
 		margin:0;
-		padding:5px @grid-gutter-width/2;
+		padding:5px;
 
 		
 		width:100%;
@@ -16,14 +16,13 @@
 
 		@media (min-width: @grid-float-breakpoint){
 			float:left;
-			width:33.33%;
 			height:120px;
+			width:50%;
 		}
 
-		@media (min-width: @screen-lg-min){
-			height:160px;
+		@media (min-width: @screen-md-min){
+			width:25%;
 		}
-
 
 		.list-item{
 			display:table;
@@ -34,14 +33,14 @@
 				display:table-cell;
 				vertical-align:middle;
 				text-align:center;
-				background:@brand-warning;
+				color:@brand-primary;
+				border:2px solid @brand-primary;
 				font-weight:700;
 				text-decoration:none;
+				padding: 0 33px;
 
 				
-				@media (min-width: @screen-lg-min){
-					font-size:22px;
-				}
+
 
 				line-height:1.2;
 
@@ -51,14 +50,11 @@
 
 					position:absolute;
 					top:50%;
-					right:20px + @grid-gutter-width/2;
+					right:20px + 5px;
 					margin-top:-8px;
 					font-size:16px;
 
-					@media (min-width: @screen-lg-min){
-						font-size:18px;
-						margin-top:-9px;
-					}
+
 				}
 			
 				small{
@@ -66,8 +62,64 @@
 					line-height:1.2;
 					display:block;
 				}
+
+				&:hover{
+					background:@gray-lighter;
+				}
 			}
 		}
+	}
+
+
+	&.list-warning{
+		li{
+			.list-item{
+				a{
+					border-color:@brand-warning;
+					background:@brand-warning;
+
+					&:hover{
+						background:lighten(@brand-warning, 10%);
+						border-color:lighten(@brand-warning, 10%);
+					}
+				}
+			}
+		}		
+	}
+
+	&.list-lg{
+		li{
+			@media (min-width: @grid-float-breakpoint){
+				width:33.33%;
+				height:120px;
+			}		
+
+			@media (min-width: @screen-md-min){
+				width:33.33%;
+			}
+
+
+			@media (min-width: @screen-lg-min){
+				height:160px;
+			}
+
+			.list-item{
+				@media (min-width: @screen-lg-min){
+					font-size:22px;
+				}
+				a{
+					&:before{
+						@media (min-width: @screen-lg-min){
+							font-size:18px;
+							margin-top:-9px;
+						}
+					}
+				}
+			}
+		
+		}
+
+
 	}
 
 }

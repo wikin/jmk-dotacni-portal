@@ -2,6 +2,22 @@
     
     <footer class="page-footer">
 	    <div class="container">
+
+				<nav>
+					<ul class="nav">
+						<li><a href="">Mapa stránek</a></li>
+						<li><a href="">Kontaktovat správce portálu</a></li>
+						<li><a href="">Prohlášení o přístupnosti</a></li>
+					</ul>
+				</nav>
+
+				<p>Krajský úřad Jihomoravského kraje, <nobr>Žerotínovo náměstí 449/3, 601 82 Brno</nobr></p>
+
+
+				<p>Portál Jihomoravského kraje podléhá licenci Creative Commons<br>
+				Uveďte původ &ndash; Neužívejte komerčně &ndash; Nezpracovávejte 3.0 Česká republika <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/cz/"><img alt="Licence Creative Commons" style="border-left-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-top-width: 0px" src="http://i.creativecommons.org/l/by-nc-nd/3.0/cz/80x15.png"></a>
+				</p>
+
 			</div>
                          
     </footer>

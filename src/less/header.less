@@ -10,11 +10,23 @@ header{
 		.navbar-header{
 			
 			.navbar-brand{
+				background-image:url(../img/jmk-icon.svg);
+				background-repeat:no-repeat;
+				background-size:40px;
+				background-position:50% 50%;
 				background-color:@brand-primary;
 				border-right:2px solid white;
 				width: @navbar-height;
-	
+
+				@media (min-width: @grid-float-breakpoint){
+					background-size:50px;
+					width: @navbar-height +  20px;
+					height: @navbar-height + 20px;
+				}
+
+
 				@media (min-width: @screen-lg-min){
+					background-size:65px;
 					width: @navbar-height +  28px*2;
 					height: @navbar-height + 28px*2;
 				}
@@ -25,14 +37,20 @@ header{
 				float:left;
 				font-size:18px;
 				font-weight:700;
-				margin-left:25px;
-				margin-top: @navbar-padding-vertical - 2px;
-				margin-bottom: @navbar-padding-vertical - 2px;
+				margin:0 0 0 25px;
+				padding-top: @navbar-padding-vertical - 2px;
+				padding-bottom: @navbar-padding-vertical - 2px;
+
+				@media (min-width: @grid-float-breakpoint){
+					padding-top: @navbar-padding-vertical + 8px;
+					padding-bottom: @navbar-padding-vertical + 8px;
+				}
 
 				@media (min-width: @screen-lg-min){
-					margin-top: @navbar-padding-vertical + 26px;
-					margin-bottom: @navbar-padding-vertical + 26px;
+					padding-top: @navbar-padding-vertical + 26px;
+					padding-bottom: @navbar-padding-vertical + 26px;
 				}
+				text-decoration:none;
 			}
 
 			.navbar-toggle{
@@ -60,6 +78,10 @@ header{
 		.navbar-nav > li > a {
 			text-decoration:none;
 
+			@media (min-width: @grid-float-breakpoint){
+				padding-top: @navbar-padding-vertical + 10px;
+				padding-bottom: @navbar-padding-vertical + 10px;
+			}
 
 			@media (min-width: @screen-lg-min){
 				padding-top: @navbar-padding-vertical + 28px;
@@ -67,6 +89,17 @@ header{
 			}
 		}
 
+		.navbar-right{
+			@media (min-width: @screen-lg-min){
+				margin-right:5px;
+			}
+		}
+
+
+		a:hover .nav-linkin {
+				border-bottom: 2px solid;
+				padding-bottom: 5px;
+		}
 
 	}
 
