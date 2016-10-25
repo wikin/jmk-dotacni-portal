@@ -122,4 +122,39 @@
 
 	}
 
+	&.list-lg2{
+		li{
+			@media (min-width: @grid-float-breakpoint){
+				width:50%;
+				height:120px;
+			}		
+
+			@media (min-width: @screen-md-min){
+				width:50%;
+			}
+
+
+			@media (min-width: @screen-lg-min){
+				height:160px;
+			}
+
+			.list-item{
+				@media (min-width: @screen-lg-min){
+					font-size:22px;
+				}
+				a{
+					&:before{
+						@media (min-width: @screen-lg-min){
+							font-size:18px;
+							margin-top:-9px;
+						}
+					}
+				}
+			}
+		
+		}
+
+
+	}
+
 }
