@@ -38,14 +38,15 @@
 			a {
 				display:table-cell;
 				vertical-align:middle;
-				text-align:center;
+				text-align:left;
 				color:@brand-primary;
 				border:2px solid @brand-primary;
 				font-weight:700;
 				text-decoration:none;
-				padding: 8px 55px;
+				padding: 8px 30px 8px 65px;
 
 				@media (min-width: @grid-float-breakpoint){
+					text-align:center;
 					vertical-align:top;
 					padding: 5px 10px;
 				}
@@ -77,7 +78,7 @@
 
 					position:absolute;
 					top:50%;
-					right:20px + 5px;
+					right:20px;
 					margin-top:-8px;
 					font-size:16px;
 
